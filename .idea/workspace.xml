@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="407918a9-0344-4acf-bcfe-1946dadd17a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-config-client.yml" afterPath="$PROJECT_DIR$/microservice-config-client.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-config-dept-client.yml" afterPath="$PROJECT_DIR$/microservice-config-dept-client.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,21 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="microservice-config-dept-client.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="microservice-config-dept-client.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservice-config-dept-client.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="36" />
+            <state relative-caret-position="1120">
+              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="microservice-config-client.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="microservice-config-client.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-config-client.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="424">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -46,8 +46,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-config-dept-client.yml" />
         <option value="$PROJECT_DIR$/microservice-config-client.yml" />
+        <option value="$PROJECT_DIR$/microservice-config-dept-client.yml" />
       </list>
     </option>
   </component>
@@ -206,12 +206,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551000566559</updated>
-      <workItem from="1551000568289" duration="267000" />
+      <workItem from="1551000568289" duration="974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267000" />
+    <option name="totallyTimeSpent" value="974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -272,18 +272,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-dept-client.yml">
+    <entry file="file://$PROJECT_DIR$/microservice-config-client.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="36" />
+        <state relative-caret-position="424">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-client.yml">
+    <entry file="file://$PROJECT_DIR$/microservice-config-dept-client.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="1120">
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
           <folding />
         </state>
       </provider>
