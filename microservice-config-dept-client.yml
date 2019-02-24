@@ -1,4 +1,4 @@
-ï»¿spring:
+spring:
   profiles:
     active:
     - dev
@@ -11,21 +11,21 @@ spring:
   application:
     name: microservice-config-dept-client
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource  #æ•°æ®æºç±»å‹
-    driver-class-name: org.gjt.mm.mysql.Driver  #æ•°æ®åº“é©±åŠ¨
-    url: jdbc:mysql://localhost:3306/cloudDB01  #æ•°æ®åº“url
+    type: com.alibaba.druid.pool.DruidDataSource  #Êı¾İÔ´ÀàĞÍ
+    driver-class-name: org.gjt.mm.mysql.Driver  #Êı¾İ¿âÇı¶¯
+    url: jdbc:mysql://localhost:3306/cloudDB01  #Êı¾İ¿âurl
     username: root
     password: 123456
     dbcp2:
-      min-idle: 5 #æ•°æ®åº“è¿æ¥æ± çš„æœ€å°ç»´æŒè¿æ¥æ•°
-      initial-size: 5 #åˆå§‹åŒ–è¿æ¥æ•°
-      max-total: 5  #æœ€å¤§è¿æ¥æ•°
-      max-wait-millis: 200 #ç­‰å¾…è¿æ¥è·å–çš„æœ€å¤§è¶…æ—¶æ—¶é—´
+      min-idle: 5 #Êı¾İ¿âÁ¬½Ó³ØµÄ×îĞ¡Î¬³ÖÁ¬½ÓÊı
+      initial-size: 5 #³õÊ¼»¯Á¬½ÓÊı
+      max-total: 5  #×î´óÁ¬½ÓÊı
+      max-wait-millis: 200 #µÈ´ıÁ¬½Ó»ñÈ¡µÄ×î´ó³¬Ê±Ê±¼ä
 
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml #mybatisé…ç½®æ–‡ä»¶æ‰€åœ¨è·¯å¾„
-  type-aliases-package: com.wang.springcloud.entities #æ‰€æœ‰entityåˆ«åç±»æ‰€åœ¨åŒ…
-  mapper-locations: classpath:mybatis/mapper/**/*.xml #mapperæ˜ å°„æ–‡ä»¶
+  config-location: classpath:mybatis/mybatis.cfg.xml #mybatisÅäÖÃÎÄ¼şËùÔÚÂ·¾¶
+  type-aliases-package: com.wang.springcloud.entities #ËùÓĞentity±ğÃûÀàËùÔÚ°ü
+  mapper-locations: classpath:mybatis/mapper/**/*.xml #mapperÓ³ÉäÎÄ¼ş
 
 eureka:
   client:
@@ -34,7 +34,7 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka
   instance:
     instance-id: microservice--config-dept-8001
-    prefer-ip-address: true #è®¿é—®è·¯å¾„å¯ä»¥æ˜¾ç¤ºipåœ°å€
+    prefer-ip-address: true #·ÃÎÊÂ·¾¶¿ÉÒÔÏÔÊ¾ipµØÖ·
 
 
 info:
@@ -51,21 +51,21 @@ spring:
   application:
     name: microservice-config-dept-client
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource  #æ•°æ®æºç±»å‹
-    driver-class-name: org.gjt.mm.mysql.Driver  #æ•°æ®åº“é©±åŠ¨
-    url: jdbc:mysql://localhost:3306/cloudDB02  #æ•°æ®åº“url
+    type: com.alibaba.druid.pool.DruidDataSource  #Êı¾İÔ´ÀàĞÍ
+    driver-class-name: org.gjt.mm.mysql.Driver  #Êı¾İ¿âÇı¶¯
+    url: jdbc:mysql://localhost:3306/cloudDB02  #Êı¾İ¿âurl
     username: root
     password: 123456
     dbcp2:
-      min-idle: 5 #æ•°æ®åº“è¿æ¥æ± çš„æœ€å°ç»´æŒè¿æ¥æ•°
-      initial-size: 5 #åˆå§‹åŒ–è¿æ¥æ•°
-      max-total: 5  #æœ€å¤§è¿æ¥æ•°
-      max-wait-millis: 200 #ç­‰å¾…è¿æ¥è·å–çš„æœ€å¤§è¶…æ—¶æ—¶é—´
+      min-idle: 5 #Êı¾İ¿âÁ¬½Ó³ØµÄ×îĞ¡Î¬³ÖÁ¬½ÓÊı
+      initial-size: 5 #³õÊ¼»¯Á¬½ÓÊı
+      max-total: 5  #×î´óÁ¬½ÓÊı
+      max-wait-millis: 200 #µÈ´ıÁ¬½Ó»ñÈ¡µÄ×î´ó³¬Ê±Ê±¼ä
 
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml #mybatisé…ç½®æ–‡ä»¶æ‰€åœ¨è·¯å¾„
-  type-aliases-package: com.wang.springcloud.entities #æ‰€æœ‰entityåˆ«åç±»æ‰€åœ¨åŒ…
-  mapper-locations: classpath:mybatis/mapper/**/*.xml #mapperæ˜ å°„æ–‡ä»¶
+  config-location: classpath:mybatis/mybatis.cfg.xml #mybatisÅäÖÃÎÄ¼şËùÔÚÂ·¾¶
+  type-aliases-package: com.wang.springcloud.entities #ËùÓĞentity±ğÃûÀàËùÔÚ°ü
+  mapper-locations: classpath:mybatis/mapper/**/*.xml #mapperÓ³ÉäÎÄ¼ş
 
 eureka:
   client:
@@ -74,7 +74,7 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka
   instance:
     instance-id: microservice--config-dept-8001
-    prefer-ip-address: true #è®¿é—®è·¯å¾„å¯ä»¥æ˜¾ç¤ºipåœ°å€
+    prefer-ip-address: true #·ÃÎÊÂ·¾¶¿ÉÒÔÏÔÊ¾ipµØÖ·
 
 
 info:
