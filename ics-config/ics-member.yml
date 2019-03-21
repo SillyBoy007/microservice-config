@@ -96,7 +96,7 @@ spring:
 
 mybatis:
   # type-aliases扫描路径
-  type-aliases-package: com.wxy.ics.member.domain
+  type-aliases-package: com.wxy.ics.member.domain,com.wxy.ics.member.po
   mapper-locations: classpath:mybatis/mapper/*.xml
   configuration:
     jdbc-type-for-null: null
@@ -228,7 +228,7 @@ spring:
 
 mybatis:
   # type-aliases扫描路径
-  type-aliases-package: com.wxy.ics.member.po
+  type-aliases-package: com.wxy.ics.member.domain,com.wxy.ics.member.po
   # mapper xml实现扫描路径
   mapper-locations: classpath:mybatis/mapper/*.xml
   configuration:
