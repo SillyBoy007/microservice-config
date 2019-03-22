@@ -131,7 +131,12 @@ info:
   company.name: wang.ics-member.com
   bulid.artifactId: $parent.artifactId$
   bulid.version: $project.version$
-
+  
+login:
+  appid: wx123456789
+  secret: wxy0610
+  accesstokenUrl: https://api.weixin.qq.com/sns/oauth2/access_token
+  userInfoUrl: https://api.weixin.qq.com/sns/userinfo
 
 ---
 
@@ -264,3 +269,9 @@ info:
   bulid.artifactId: $parent.artifactId$
   bulid.version: $project.version$
 
+  
+login:
+  appid: wx123456789
+  secret: wxy0610
+  accesstokenUrl: https://api.weixin.qq.com/sns/oauth2/access_token
+  userInfoUrl: https://api.weixin.qq.com/sns/userinfo
