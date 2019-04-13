@@ -1,11 +1,5 @@
-﻿server:
-  port: 8001
-  tomcat:
-    uri-encoding: utf-8
-spring:
+﻿spring:
   profiles: dev
-  application:
-    name: ics-member
   datasource:
     druid:
       # 数据库访问配置, 使用druid数据源
@@ -111,14 +105,8 @@ pagehelper:
 ---
 
 
-server:
-  port: 8080
-  tomcat:
-    uri-encoding: utf-8
 spring:
   profiles: test
-  application:
-    name: ics-member
   datasource:
     druid:
       # 数据库访问配置, 使用druid数据源
