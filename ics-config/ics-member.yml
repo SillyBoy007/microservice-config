@@ -82,25 +82,6 @@
     timeout: 0
 
 
-mybatis:
-  # type-aliases扫描路径
-  type-aliases-package: com.wxy.ics.member.orm.model,com.wxy.ics.member.domain
-  mapper-locations: classpath:mybatis/mapper/*.xml
-  configuration:
-    jdbc-type-for-null: null
-
-mapper:
-  mappers: com.wxy.ics.member.config.MyMapper
-  not-empty: false
-  identity: MYSQL
-
-pagehelper:
-  helperDialect: mysql
-  reasonable: true
-  supportMethodsArguments: true
-  params: count=countSql
-
-
 
 ---
 
@@ -187,24 +168,4 @@ spring:
         max-wait: 10000
     # 连接超时时间（毫秒）
     timeout: 0
-
-
-mybatis:
-  # type-aliases扫描路径
-  type-aliases-package: com.wxy.ics.member.orm.model,com.wxy.ics.member.domain
-  # mapper xml实现扫描路径
-  mapper-locations: classpath:mybatis/mapper/*.xml
-  configuration:
-    jdbc-type-for-null: null
-
-mapper:
-  mappers: com.wxy.ics.member.config.MyMapper
-  not-empty: false
-  identity: MYSQL
-
-pagehelper:
-  helperDialect: mysql
-  reasonable: true
-  supportMethodsArguments: true
-  params: count=countSql
 
