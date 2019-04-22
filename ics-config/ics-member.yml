@@ -59,27 +59,31 @@
         stat:
           log-slow-sql: true
 
-  redis:
-    # Redis数据库索引（默认为0）
-    database: 0
-    # Redis服务器地址
-    host: 127.0.0.1
-    # Redis服务器连接端口
-    port: 6379
-    # Redis 密码
-    password:
-    jedis:
-      pool:
-        # 连接池中的最小空闲连接
-        min-idle: 8
-        # 连接池中的最大空闲连接
-        max-idle: 500
-        # 连接池最大连接数（使用负值表示没有限制）
-        max-active: 2000
-        # 连接池最大阻塞等待时间（使用负值表示没有限制）
-        max-wait: 10000
-    # 连接超时时间（毫秒）
-    timeout: 0
+jetcache:
+  areaInCacheName: false
+  local:
+    default:
+      defaultExpireInMillis: 300000
+      keyConvertor: fastjson
+      limit: 100
+      type: linkedhashmap
+  remote:
+    default:
+      database: 1
+      defaultExpireInMillis: 300000
+      host: 127.0.0.1
+      keyConvertor: fastjson
+      keyPrefix: 'ics_member:'
+      password:
+      poolConfig:
+        maxIdle: 20
+        maxTotal: 50
+        minIdle: 5
+      port: 6379
+      type: redis
+      valueDecoder: java
+      valueEncoder: java
+  statIntervalMinutes: 10
 
 
 
@@ -147,25 +151,30 @@ spring:
         stat:
           log-slow-sql: true
 
-  redis:
-    # Redis数据库索引（默认为0）
-    database: 0
-    # Redis服务器地址
-    host: 127.0.0.1
-    # Redis服务器连接端口
-    port: 6379
-    # Redis 密码
-    password:
-    jedis:
-      pool:
-        # 连接池中的最小空闲连接
-        min-idle: 8
-        # 连接池中的最大空闲连接
-        max-idle: 500
-        # 连接池最大连接数（使用负值表示没有限制）
-        max-active: 2000
-        # 连接池最大阻塞等待时间（使用负值表示没有限制）
-        max-wait: 10000
-    # 连接超时时间（毫秒）
-    timeout: 0
+
+jetcache:
+  areaInCacheName: false
+  local:
+    default:
+      defaultExpireInMillis: 300000
+      keyConvertor: fastjson
+      limit: 100
+      type: linkedhashmap
+  remote:
+    default:
+      database: 1
+      defaultExpireInMillis: 300000
+      host: 127.0.0.1
+      keyConvertor: fastjson
+      keyPrefix: 'ics_member:'
+      password:
+      poolConfig:
+        maxIdle: 20
+        maxTotal: 50
+        minIdle: 5
+      port: 6379
+      type: redis
+      valueDecoder: java
+      valueEncoder: java
+  statIntervalMinutes: 10
 
