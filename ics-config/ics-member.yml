@@ -59,33 +59,6 @@
         stat:
           log-slow-sql: true
 
-jetcache:
-  areaInCacheName: false
-  local:
-    default:
-      defaultExpireInMillis: 300000
-      keyConvertor: fastjson
-      limit: 100
-      type: linkedhashmap
-  remote:
-    default:
-      database: 1
-      defaultExpireInMillis: 300000
-      host: 127.0.0.1
-      keyConvertor: fastjson
-      keyPrefix: 'ics_member:'
-      password:
-      poolConfig:
-        maxIdle: 20
-        maxTotal: 50
-        minIdle: 5
-      port: 6379
-      type: redis
-      valueDecoder: java
-      valueEncoder: java
-  statIntervalMinutes: 10
-
-
 
 ---
 
@@ -150,31 +123,4 @@ spring:
       filter:
         stat:
           log-slow-sql: true
-
-
-jetcache:
-  areaInCacheName: false
-  local:
-    default:
-      defaultExpireInMillis: 300000
-      keyConvertor: fastjson
-      limit: 100
-      type: linkedhashmap
-  remote:
-    default:
-      database: 1
-      defaultExpireInMillis: 300000
-      host: 127.0.0.1
-      keyConvertor: fastjson
-      keyPrefix: 'ics_member:'
-      password:
-      poolConfig:
-        maxIdle: 20
-        maxTotal: 50
-        minIdle: 5
-      port: 6379
-      type: redis
-      valueDecoder: java
-      valueEncoder: java
-  statIntervalMinutes: 10
 
